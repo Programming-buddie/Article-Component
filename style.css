@@ -1,0 +1,36 @@
+:root{
+    --Very-Dark-Grayish-Blue: hsl(217, 19%, 35%);
+    --Desaturated-Dark-Blue: hsl(214, 17%, 51%);
+    --Grayish-Blue: hsl(212, 23%, 69%);
+    --Light-Grayish-Blue: hsl(210, 46%, 95%);
+}
+
+body{
+    background-color: var(--Light-Grayish-Blue);
+}
+.main{
+    display: flex;
+    background-color: #fff;
+    margin: 3rem auto;
+    max-width: 45.75rem;
+    max-height: 17.5rem;
+    border-radius: 20px;
+}
+.main img{
+    width: 50%;
+    height: 50%;
+}
+.about{
+    padding: 1rem;
+}
+.about h2{
+    color: var(--Desaturated-Dark-Blue);
+    font-size: 1.3rem;
+}
+.about p{
+    color: var(--Grayish-Blue);
+}
+.author-section{
+    display: flex;
+    justify-content: space-between;
+}
