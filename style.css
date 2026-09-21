@@ -3,6 +3,7 @@
     --Desaturated-Dark-Blue: hsl(214, 17%, 51%);
     --Grayish-Blue: hsl(212, 23%, 69%);
     --Light-Grayish-Blue: hsl(210, 46%, 95%);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -11,35 +12,43 @@ body{
 .main{
     display: flex;
     background-color: #fff;
-    margin: 3rem auto;
+    margin: 2rem auto;
     max-width: 45.75rem;
     max-height: 17.5rem;
     border-radius: 20px;
+    box-shadow: 4px 16px 20px 0px rgb(226, 226, 226);
 }
-
- .left{
+.left{
     width: 100%;
     background-image: url(./images/drawers.jpg);
     background-repeat: no-repeat;
     border-radius: 20px 0 0 20px;
     zoom: 53%;
-
 }
 .about{
-    padding: 1rem;
+    margin: 2rem;
 }
 .about h2{
     color: var(--Desaturated-Dark-Blue);
-    font-size: 1.3rem;
+    font-size: 20px;
+    font-weight: 700;
+    width: 350px;
+    line-height: 1.7rem;
+    margin-top: 0px;
 }
 .about p{
     color: var(--Grayish-Blue);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.5rem;
+    margin-top: -6px;
+    
 }
 .author-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    margin-top: -0.5rem;
 }
 .author{
     display: flex;
@@ -52,9 +61,17 @@ body{
     height: 2.5rem;
     border-radius: 100%;
 }
-.author-name{
-
+.author-name h3{
+    color: var(--Desaturated-Dark-Blue);
+    font-size: 16px;
 }
 .author-name p{
     margin-top: -1rem;
+    margin-bottom: 0;
+}
+button{
+    border-radius: 50%;
+    height: 2.5rem;
+    width: 2.5rem;
+    border: none;
 }
