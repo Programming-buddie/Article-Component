@@ -93,7 +93,7 @@ footer a{
     }
     .main{
         flex-direction: column;
-        max-height: 35rem;
+        max-height: 33rem;
         max-width: 21rem;
         margin-top: 3rem;
     }
@@ -112,14 +112,22 @@ footer a{
     }
     .share{
         background-color: var(--Very-Dark-Grayish-Blue);
-        display: flex;
+        display: none;
         justify-content: space-around;
         align-items: center;
         margin-top: -0.5rem;
         border-radius: 0 0 20px 20px;
         width: 336px;
-        height: 100px;
+        height: 70px;
+        margin-top: 20px;
         margin-bottom: -30px;
         margin-left: -31px;
+    }
+    .share p{
+        padding-top: 25px;
+        font-size: 18px;
+    }
+    .share button{
+        margin-left: 50px;
     }
 }
