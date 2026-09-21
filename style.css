@@ -110,4 +110,16 @@ footer a{
         font-weight: 700;
         font-size: 17px;
     }
+    .share{
+        background-color: var(--Very-Dark-Grayish-Blue);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: -0.5rem;
+        border-radius: 0 0 20px 20px;
+        width: 336px;
+        height: 100px;
+        margin-bottom: -30px;
+        margin-left: -31px;
+    }
 }
