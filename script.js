@@ -1,3 +1,6 @@
+// Selecting the body
+const main = document.querySelector(".main")
+
 // Selecting the button
 const button = document.querySelector("button")
 
@@ -11,6 +14,7 @@ const share = document.querySelector(".share")
 const newshare = document.querySelector(".share-button")
 share.addEventListener("click", normal)
 
+// New share function
 function normal() {
     share.style.display = "none"
     author_sec.style.display = "flex"
@@ -20,7 +24,20 @@ function normal() {
 function click() {
     share.style.display = "flex"
     author_sec.style.display = "none"
+    // main.style.maxWidth = "45.75rem"
+    // main.style.maxHeight = "17.5rem"
+
+    // if (main.style.maxWidth === "45.75rem"){
+    //     console.log("correct")
+    //     share.style.display = "flex"
+    //     author_sec.style.display = "flex"
+    // }
+    // if(main.style.maxHeight === "34rem"){
+    //     console.log("incorrect")
+        
+    //     console.log(main.style)
+    // }
 }
 
-// Adding the Event listener
+// Adding the Event listener to main button
 button.addEventListener("click", click)

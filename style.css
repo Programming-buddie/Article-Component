@@ -80,7 +80,30 @@ button{
     width: 2.5rem;
     border: none;
 }
-
+.share{
+        background-color: var(--Very-Dark-Grayish-Blue);
+        display: none;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: -0.5rem;
+        border-radius: 20px 20px 20px 20px;
+        width: 336px;
+        height: 70px;
+        margin-top: -130px;
+        margin-bottom: -30px;
+        margin-left: 200px;
+        position:absolute;
+        box-shadow: 3px 7px ;
+        
+    }
+    .share p{
+        padding-top: 25px;
+        font-size: 18px;
+    }
+    .share button{
+        margin-left: 50px;
+        display: none;
+    }
 footer a{
     color: var(--Grayish-Blue);
     text-decoration: none;
@@ -122,6 +145,7 @@ footer a{
         margin-top: 20px;
         margin-bottom: -30px;
         margin-left: -31px;
+        box-shadow: none;
     }
     .share p{
         padding-top: 25px;
@@ -129,5 +153,7 @@ footer a{
     }
     .share button{
         margin-left: 50px;
+        display: block;
     }
+    
 }
