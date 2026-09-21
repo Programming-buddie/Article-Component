@@ -16,9 +16,14 @@ body{
     max-height: 17.5rem;
     border-radius: 20px;
 }
-.main img{
-    width: 50%;
-    height: 50%;
+
+ .left{
+    width: 100%;
+    background-image: url(./images/drawers.jpg);
+    background-repeat: no-repeat;
+    border-radius: 20px 0 0 20px;
+    zoom: 53%;
+
 }
 .about{
     padding: 1rem;
@@ -33,4 +38,23 @@ body{
 .author-section{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
+}
+.author{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+}
+.author img{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+}
+.author-name{
+
+}
+.author-name p{
+    margin-top: -1rem;
 }
