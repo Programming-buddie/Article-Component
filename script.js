@@ -24,19 +24,6 @@ function normal() {
 function click() {
     share.style.display = "flex"
     author_sec.style.display = "none"
-    // main.style.maxWidth = "45.75rem"
-    // main.style.maxHeight = "17.5rem"
-
-    // if (main.style.maxWidth === "45.75rem"){
-    //     console.log("correct")
-    //     share.style.display = "flex"
-    //     author_sec.style.display = "flex"
-    // }
-    // if(main.style.maxHeight === "34rem"){
-    //     console.log("incorrect")
-        
-    //     console.log(main.style)
-    // }
 }
 
 // Adding the Event listener to main button
