@@ -51,6 +51,6 @@ i want to focus more on DOM manipulation
 ## Author
 
 - Frontend Mentor - [Programming-buddie](https://www.frontendmentor.io/profile/Programming-buddie)
-- Twitter - [Radicalnerd0](https://www.twitter.com/Radicalnerd)
+- Twitter - [Radical Nerd](https://www.twitter.com/Radicalnerd0)
 
 
